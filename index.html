@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed & Marwa - Wedding Invitation</title>
+    <link rel="icon" href="images/rings.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navigation">
+        <div class="nav-container">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#details" class="nav-link">Details</a>
+            <a href="#location" class="nav-link">Location</a>
+            <a href="#messages" class="nav-link">Messages</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <img src="./images/5913417115115834213.jpg" alt="Wedding Background" class="hero-image">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="couple-names">
+                <br>
+                <br>
+                <br>
+                <br>
+                <h1 class="groom-name">Mohamed</h1>
+                <div class="ampersand">&</div>
+                <h1 class="bride-name">Marwa</h1>
+            </div>
+            <p class="wedding-tagline">This is the beginning of our forever.</p>
+            <div class="wedding-date">
+                <p class="date-text">We're getting married</p>
+                <p class="date-value" id="wedding-date-display">Augest 15, 2025</p>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-arrow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wedding Details Section -->
+    <section id="details" class="details">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Special Day</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <!-- Countdown Timer -->
+            <div class="countdown-container">
+                <h3 class="countdown-title">Countdown to Forever</h3>
+                <div class="countdown-timer" id="countdown">
+                    <div class="time-unit">
+                        <span class="time-value" id="days">0</span>
+                        <span class="time-label">Days</span>
+                    </div>
+                    <div class="time-separator">:</div>
+                    <div class="time-unit">
+                        <span class="time-value" id="hours">0</span>
+                        <span class="time-label">Hours</span>
+                    </div>
+                    <div class="time-separator">:</div>
+                    <div class="time-unit">
+                        <span class="time-value" id="minutes">0</span>
+                        <span class="time-label">Minutes</span>
+                    </div>
+                    <div class="time-separator">:</div>
+                    <div class="time-unit">
+                        <span class="time-value" id="seconds">0</span>
+                        <span class="time-label">Seconds</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Event Details -->
+            <div class="event-details">
+                <div class="event-info">
+                    <div class="event-item">
+                        <div class="event-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                        </div>
+                        <div class="event-content">
+                            <h4>Wedding Ceremony</h4>
+                            <p>Augest 15, 2025 at 8:00 PM</p>
+                        </div>
+                    </div>
+                    
+                    <div class="event-item">
+                        <div class="event-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div class="event-content">
+                            <h4>Wedding Venue</h4>
+                            <p>Assiut Doctors Club, Capital Hall</p>
+                            <p>Assiut, Egypt</p>
+                        </div>
+                    </div>
+                    
+                    <div class="event-item">
+                        <div class="event-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12,6 12,12 16,14"></polyline>
+                            </svg>
+                        </div>
+                        <div class="event-content">
+                            <h4>Reception</h4>
+                            <p>Following ceremony at 8:00 PM</p>
+                            <p>Dinner, dancing, and celebration</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="venue-image">
+                    <img src="https://pixabay.com/get/g9f36d15defc7a0ab538d87debe58736bcd8114cafab08dff68d8f5aa5163d002d085eb9dc9dd46e9df73613520e21d6a18daf3a855b47d20ebaf2af07c98c889_1280.jpg" alt="Wedding Venue" class="venue-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Find Us Here</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="location-content">
+                <div class="location-info">
+                    <h3>Wedding Venue</h3>
+                    <p class="venue-name">Wedding Hall</p>
+                    <p class="venue-address">Assiut, Egypt</p>
+                    <div class="location-details">
+                        <div class="detail-item">
+                            <strong>Location:</strong> <a href="https://maps.app.goo.gl/94jzBN7KtDonUda39" target="_blank" style="color: hsl(var(--primary-color)); text-decoration: none;">View on Google Maps</a>
+                        </div>
+                        <div class="detail-item">
+                            <strong>Date & Time:</strong> Augest 15, 2025 at 8:00 PM
+                        </div>
+                        <div class="detail-item">
+                            <strong>Celebration:</strong> Ceremony & Reception
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.0196274129107!2d31.155004400000003!3d27.187119900000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1445094812a8c10b%3A0x555db0170406011e!2z2YbYp9iv2Yog2KfZhNij2LfYqNin2KEg2KjYo9iz2YrZiNi3!5e0!3m2!1sen!2seg!4v1749168458934!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Guest Messages Section -->
+    <section id="messages" class="messages">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Wedding Wishes</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Share your love and best wishes for Mohamed & Marwa</p>
+            </div>
+            
+            <div class="messages-content">
+                <div class="message-form-container">
+                    <form id="message-form" class="message-form">
+                        <div class="form-group">
+                            <label for="guest-name">Your Name</label>
+                            <input type="text" id="guest-name" name="guestName" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="guest-message">Your Message</label>
+                            <textarea id="guest-message" name="guestMessage" rows="4" placeholder="Share your congratulations and best wishes..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <span>Send Wishes</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22,2 15,22 11,13 2,9 22,2"></polygon>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="messages-display">
+                    <h3 class="messages-title">Messages from Our Loved Ones</h3>
+                    <div id="messages-list" class="messages-list">
+                        <div class="no-messages">
+                            <p>Be the first to leave a message for Mohamed & Marwa!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="couple-signature">
+                    <h3>Mohamed & Marwa</h3>
+                    <p>Augest 15, 2025</p>
+                </div>
+                <div class="footer-message">
+                    <p>Thank you for being part of our special day</p>
+                </div>
+                <!-- <div class="decorative-element">
+                    <img src="https://pixabay.com/get/g5da5480581ec5a065e71d56e362e11f88cdb272ec06ddc887bde1037eb3552ca594465af0dd8104afa37e26d1b204b067789771ba34fc2499e7ae4c91f2dfb71_1280.jpg" alt="Floral decoration" class="footer-decoration">
+                </div> -->
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
