@@ -593,7 +593,7 @@ p {
 
 /* Footer */
 .footer {
-    background: var(--gradient-secondary);
+    background: rgb(19, 35, 41);
     color: hsl(var(--text-light));
     padding: 4rem 0 2rem;
     text-align: center;
